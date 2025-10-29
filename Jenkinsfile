@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Build your Docker image
-                    bat 'docker build -t my-kube3-chinna .'
+                    bat 'docker build -t my-kube09:latest .'
                 }
             }
         }
